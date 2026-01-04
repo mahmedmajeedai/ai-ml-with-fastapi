@@ -16,3 +16,8 @@ def hello():
 @app.get("/about")
 def about():
     return {'message': 'Our first patient API'}
+
+@app.get("/patients")
+def get_patients():
+    data = load_data()
+    return data
