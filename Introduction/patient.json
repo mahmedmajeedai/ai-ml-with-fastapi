@@ -1,0 +1,38 @@
+patients = {
+    "1": {
+        "name": "John Doe",
+        "age": 30,
+        "gender": "male",
+        "medical_history": ["hypertension", "diabetes"]
+    },
+    "2": {
+        "name": "Jane Smith",
+        "age": 25,
+        "gender": "female",
+        "medical_history": ["asthma"]
+    },
+    "3": {
+        "name": "Alice Johnson",
+        "age": 40,
+        "gender": "female",
+        "medical_history": ["hypertension"]
+    },
+    "4": {
+        "name": "Bob Brown",
+        "age": 50,
+        "gender": "male",
+        "medical_history": ["diabetes", "heart disease"]
+    },
+    "5": {
+        "name": "Charlie Davis",
+        "age": 35,
+        "gender": "male",
+        "medical_history": ["asthma", "hypertension"]
+    },
+    "6": {
+        "name": "David Wilson",
+        "age": 45,
+        "gender": "male",
+        "medical_history": ["hypertension", "heart disease"]
+    }
+}
