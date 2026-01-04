@@ -5,7 +5,7 @@ app = FastAPI()
 
 #helper function to load json data
 def load_data():
-    with open('Introduction/patient.json', 'r') as f:
+    with open('/home/muhammad-ahmed/Documents/fastapi/ai-ml-with-fastapi/Introduction/patient.json', 'r') as f:
         data = json.load(f)
     return data
 
