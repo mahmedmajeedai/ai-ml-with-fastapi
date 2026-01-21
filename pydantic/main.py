@@ -10,7 +10,10 @@ def insert_patient_record(mareez: Patient):
     print(mareez.age)
     print(type(mareez.age))
     print("Patient record inserted.")
-    
+
+def update_patient_record(mareez: Patient):
+    print("Patient record updated.")
+
 patient_data = {
     "name": "Ahmed",
     "age": 23
