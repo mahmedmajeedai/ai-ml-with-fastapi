@@ -205,3 +205,4 @@ from fastapi import Query
 
 Query parameters are optional key–value pairs appended to a URL to pass additional filtering, sorting, or search information to the server.
 ```
+From this point onwards, we are working on pydantic

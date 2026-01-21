@@ -45,5 +45,6 @@ def sort_patients(
     if order not in ["asc", "desc"]:
         raise HTTPException(status_code=400, detail="Invalid sort order")
     data = load_data()
-    sorted_data = sorted(data.items(), key=lambda x: x[1][sort_by], reverse=(order == "desc"))
+    sort_order = True if order == "desc" else False
+    sorted_data = sorted(data.items(), key=lambda x: x[1][sort_by], reverse=sort_order)
     return dict(sorted_data)
