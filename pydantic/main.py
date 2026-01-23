@@ -1,5 +1,5 @@
-from pydantic import BaseModel
-from typing import List, Dict, Union
+from pydantic import BaseModel, EmailStr
+from typing import List, Dict, Union, Optional
 
 class Patient(BaseModel):
     # Type validation
@@ -8,6 +8,9 @@ class Patient(BaseModel):
     allergies: List[str]
     symptoms: List[Union[str, int]] #or X:list
     contact_details: Dict[str, str]
+    married: Optional[bool] = None
+    gender: str = "Other" #default value
+    email: EmailStr
 
 
 def data_entry():
